@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "storange",
+  "version": "${version}",
+
+  "name": "Storange",
+  "description": "A powerful way to store items, and much more!",
+  "authors": [
+    "pixlblade"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/storange/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pixlblade.storange.storange"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
