@@ -1,5 +1,9 @@
 {
     "item.storange.orange": "Orange",
     "block.storange.machine_block": "Machine Block",
-    "itemGroup.storange.all": "Storange"
+    "itemGroup.storange.all": "Storange",
+    "item.storange.transistor": "Transistor",
+    "item.storange.iron_plate": "Iron Plate",
+    "item.storange.hammer": "Hammer",
+    "item.storange.processor_chip": "Processor Chip"
 }
