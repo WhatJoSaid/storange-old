@@ -5,5 +5,8 @@
     "item.storange.transistor": "Transistor",
     "item.storange.iron_plate": "Iron Plate",
     "item.storange.hammer": "Hammer",
-    "item.storange.processor_chip": "Processor Chip"
+    "item.storange.processor_chip": "Processor Chip",
+    "item.storange.silicon_wafer": "Silicon Wafer",
+    "item.storange.mini_silicon_wafer": "Mini Silicon Wafer",
+    "item.storange.processor": "Processor"
 }

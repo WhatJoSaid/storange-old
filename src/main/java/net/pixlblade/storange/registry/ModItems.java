@@ -14,6 +14,9 @@ public class ModItems {
     public static final Item IRON_PLATE = new Item(new Item.Settings().group(storange.STORANGE_GROUP));
     public static final Item HAMMER = new Item(new Item.Settings().group(storange.STORANGE_GROUP));
     public static final Item PROCESSOR_CHIP = new Item(new Item.Settings().group(storange.STORANGE_GROUP));
+    public static final Item SILICON_WAFER = new Item(new Item.Settings().group(storange.STORANGE_GROUP));
+    public static final Item MINI_SILICON_WAFER = new Item(new Item.Settings().group(storange.STORANGE_GROUP));
+    public static final Item PROCESSOR = new Item(new Item.Settings().group(storange.STORANGE_GROUP));
     // Block Items
     public static final BlockItem MACHINE_BLOCK = new BlockItem(ModBlocks.MACHINE_BLOCK, new Item.Settings().group(storange.STORANGE_GROUP));
     // Registry
@@ -24,5 +27,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(storange.MOD_ID, "iron_plate"), IRON_PLATE);
         Registry.register(Registry.ITEM, new Identifier(storange.MOD_ID, "hammer"), HAMMER);
         Registry.register(Registry.ITEM, new Identifier(storange.MOD_ID, "processor_chip"), PROCESSOR_CHIP);
+        Registry.register(Registry.ITEM, new Identifier(storange.MOD_ID, "silicon_wafer"), SILICON_WAFER);
+        Registry.register(Registry.ITEM, new Identifier(storange.MOD_ID, "mini_silicon_wafer"), MINI_SILICON_WAFER);
+        Registry.register(Registry.ITEM, new Identifier(storange.MOD_ID, "processor"), PROCESSOR);
     }
 }

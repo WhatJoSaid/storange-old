@@ -3,18 +3,21 @@
     "pattern": [
         "#",
         "R",
-        "#"
+        "I"
     ],
     "key": {
         "#": {
-            "item": "minecraft:iron_nugget"
+            "item": "storange:mini_silicon_wafer"
         },
         "R": {
             "item": "minecraft:redstone"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
         }
     },
     "result": {
         "item": "storange:transistor",
-        "count": 2
+        "count": 1
     }
 }
